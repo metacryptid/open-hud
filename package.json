@@ -1,0 +1,26 @@
+{
+  "name": "open-hud",
+  "version": "2.3.2",
+  "description": "Web based UI framework for annotated camera feeds.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metacryptid/open-hud.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Char Rubinstein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metacryptid/open-hud/issues"
+  },
+  "homepage": "https://github.com/metacryptid/open-hud#readme"
+}
