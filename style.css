@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+  font-family: 'VT323', monospace;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.hudText {
+  font-weight: bold;
+  color: #33cc33;
+  font-size: 20px;
+  position: relative;
+}
+
+#time {
+  float: right;
+}
+
+
+#waveform {
+  position: relative;
+}
+
+
+#centerRect {
+  animation: blinker 1.5s step-start infinite;
+  border-style: solid dotted;
+  border-width: #33cc33;
+  border-color: #33cc33;
+  width: 5em;
+  height: 5em;
+  margin: 0;
+  position: absolute;
+top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#centerText {
+  font-size: 10px !important;
+}
+
+#border {
+  position: relative;
+  height: 94vh;
+  width: 96vw;
+  margin: auto;
+  border: 2px solid  #33cc33;
+}
+
+#infoScroll {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-top-style: solid;
+  border-left-style: solid;
+  border-color: #33cc33;
+  border-width: 2px;
+  width: 40vw;
+  height: 30vh;
+  color: #33cc33;
+  overflow: scroll;
+  background-color: rgba(0,0,0, 0.5)
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
