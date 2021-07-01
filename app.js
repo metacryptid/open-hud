@@ -3,8 +3,8 @@ const app = express();
 app.get("/", function (req, res) {
     res.sendFile(__dirname + "/index.html");
 });
-app.get("/script.js", function (req, res) {
-    res.sendFile(__dirname + "/script.js");
+app.get("/hud.js", function (req, res) {
+    res.sendFile(__dirname + "/hud.js");
 });
 app.get("/style.css", function (req, res) {
     res.sendFile(__dirname + "/style.css");
